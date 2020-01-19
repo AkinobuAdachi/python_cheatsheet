@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a340333c-3344-48ba-a7a6-5139c69e89b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WVwoUACR86lBcwJKB1mgUIs6fm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="docker://python:latest/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="DockerContainerSettingsRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/opt/project" />
+              <option name="editable" value="true" />
+              <option name="hostPath" value="$PROJECT_DIR$" />
+              <option name="readOnly" value="false" />
+            </DockerVolumeBindingImpl>
+          </list>
+        </option>
+      </EXTENSION>
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a340333c-3344-48ba-a7a6-5139c69e89b9" name="Default Changelist" comment="" />
+      <created>1579248244682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579248244682</updated>
+      <workItem from="1579248248016" duration="25253000" />
+      <workItem from="1579356764190" duration="6568000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="61" y="-1128" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579357679646">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="61" y="-1128" key="#com.intellij.execution.impl.EditConfigurationsDialog/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579357679646" />
+    <state x="719" y="-949" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579263649554">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="719" y="-949" key="#com.intellij.fileTypes.FileTypeChooser/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579263649554" />
+    <state width="1034" height="314" key="GridCell.Tab.0.bottom" timestamp="1579427104568">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1034" height="314" key="GridCell.Tab.0.bottom/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579427104568" />
+    <state width="1034" height="314" key="GridCell.Tab.0.center" timestamp="1579427104567">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1034" height="314" key="GridCell.Tab.0.center/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579427104567" />
+    <state width="1034" height="314" key="GridCell.Tab.0.left" timestamp="1579427104567">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1034" height="314" key="GridCell.Tab.0.left/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579427104567" />
+    <state width="1034" height="314" key="GridCell.Tab.0.right" timestamp="1579427104568">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1034" height="314" key="GridCell.Tab.0.right/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579427104568" />
+    <state width="1211" height="388" key="GridCell.Tab.1.bottom" timestamp="1579356753286">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1211" height="388" key="GridCell.Tab.1.bottom/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579356753286" />
+    <state width="1211" height="388" key="GridCell.Tab.1.center" timestamp="1579356753285">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1211" height="388" key="GridCell.Tab.1.center/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579356753285" />
+    <state width="1211" height="388" key="GridCell.Tab.1.left" timestamp="1579356753285">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1211" height="388" key="GridCell.Tab.1.left/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579356753285" />
+    <state width="1211" height="388" key="GridCell.Tab.1.right" timestamp="1579356753286">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1211" height="388" key="GridCell.Tab.1.right/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579356753286" />
+    <state x="105" y="-1152" key="SettingsEditor" timestamp="1579248332051">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="105" y="-1152" key="SettingsEditor/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579248332051" />
+    <state x="64" y="-1013" key="com.intellij.ide.util.TipDialog" timestamp="1579356767366">
+      <screen x="-282" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="64" y="-1013" key="com.intellij.ide.util.TipDialog/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579356767366" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/src$run.coverage" NAME="run Coverage Results" MODIFIED="1579427104561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
