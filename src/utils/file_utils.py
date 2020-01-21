@@ -4,6 +4,7 @@ import os
 import pathlib
 import shutil
 import shutil
+import glob
 
 s = """\
 AAA
@@ -170,11 +171,6 @@ def file_operation():
     # shutil.rmtree('files/test_dir')
 
     print(os.getcwd())
-
-
-
-
-
 
 
 if __name__ == '__main__':

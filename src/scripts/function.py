@@ -184,6 +184,5 @@ def run_script():
     change_words(l, lambda word: word.lower())
 
 
-
 if __name__ == '__main__':
     run_script()

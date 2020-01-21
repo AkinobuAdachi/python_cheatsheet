@@ -22,6 +22,10 @@ from scripts import *
 
 from classes import class01
 from utils import file_utils
+from utils import datetime
+from utils import configparser
+
+
 def main():
     '''
     # python組み込み関数
@@ -58,11 +62,9 @@ def main():
     # class01.run_script()
 
     # utils
-    file_utils.run_script()
-
+    # file_utils.run_script()
+    # datetime.run_script()
+    configparser.run_script()
 
 if __name__ == '__main__':
     main()
-
-
-

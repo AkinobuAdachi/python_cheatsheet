@@ -4,11 +4,17 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9ff4664-1e04-4c7c-8e31-12d5e88dc54f" name="Default Changelist" comment="" />
+    <list default="true" id="b9ff4664-1e04-4c7c-8e31-12d5e88dc54f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WPd4agi0F7wc4tX5SzaJPUg0Wa" />
   <component name="ProjectViewState">
@@ -97,6 +103,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579054973687</updated>
       <workItem from="1579054978802" duration="63974000" />
+      <workItem from="1579578300898" duration="18000" />
+      <workItem from="1579578323616" duration="210000" />
     </task>
     <servers />
   </component>
@@ -120,22 +128,22 @@
       <screen x="-282" y="-1417" width="2560" height="1417" />
     </state>
     <state x="322" y="-1010" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579150568201" />
-    <state width="1199" height="387" key="GridCell.Tab.0.bottom" timestamp="1579248176776">
+    <state width="1137" height="175" key="GridCell.Tab.0.bottom" timestamp="1579578536635">
       <screen x="-282" y="-1417" width="2560" height="1417" />
     </state>
-    <state width="1199" height="387" key="GridCell.Tab.0.bottom/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579248176776" />
-    <state width="1199" height="387" key="GridCell.Tab.0.center" timestamp="1579248176776">
+    <state width="1137" height="175" key="GridCell.Tab.0.bottom/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579578536635" />
+    <state width="1137" height="175" key="GridCell.Tab.0.center" timestamp="1579578536634">
       <screen x="-282" y="-1417" width="2560" height="1417" />
     </state>
-    <state width="1199" height="387" key="GridCell.Tab.0.center/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579248176776" />
-    <state width="1199" height="387" key="GridCell.Tab.0.left" timestamp="1579248176775">
+    <state width="1137" height="175" key="GridCell.Tab.0.center/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579578536634" />
+    <state width="1137" height="175" key="GridCell.Tab.0.left" timestamp="1579578536634">
       <screen x="-282" y="-1417" width="2560" height="1417" />
     </state>
-    <state width="1199" height="387" key="GridCell.Tab.0.left/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579248176775" />
-    <state width="1199" height="387" key="GridCell.Tab.0.right" timestamp="1579248176776">
+    <state width="1137" height="175" key="GridCell.Tab.0.left/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579578536634" />
+    <state width="1137" height="175" key="GridCell.Tab.0.right" timestamp="1579578536634">
       <screen x="-282" y="-1417" width="2560" height="1417" />
     </state>
-    <state width="1199" height="387" key="GridCell.Tab.0.right/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579248176776" />
+    <state width="1137" height="175" key="GridCell.Tab.0.right/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579578536634" />
     <state width="1199" height="387" key="GridCell.Tab.1.bottom" timestamp="1579248176777">
       <screen x="-282" y="-1417" width="2560" height="1417" />
     </state>
@@ -156,16 +164,20 @@
       <screen x="-282" y="-1417" width="2560" height="1417" />
     </state>
     <state x="456" y="-1154" key="SettingsEditor/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579152396060" />
-    <state x="262" y="-993" key="com.intellij.ide.util.TipDialog" timestamp="1579054981215">
+    <state x="262" y="-993" key="com.intellij.ide.util.TipDialog" timestamp="1579578307531">
       <screen x="-282" y="-1417" width="2560" height="1417" />
     </state>
-    <state x="262" y="-993" key="com.intellij.ide.util.TipDialog/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579054981215" />
+    <state x="262" y="-993" key="com.intellij.ide.util.TipDialog/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579578307531" />
+    <state x="633" y="297" width="673" height="708" key="find.popup" timestamp="1579578419680">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="633" y="297" width="673" height="708" key="find.popup/-282.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1579578419680" />
     <state x="172" y="-1068" width="670" height="676" key="search.everywhere.popup" timestamp="1579071809155">
       <screen x="-282" y="-1417" width="2560" height="1417" />
     </state>
     <state x="172" y="-1068" width="670" height="676" key="search.everywhere.popup/-282.-1417.2560.1417/0.23.1680.1027@-282.-1417.2560.1417" timestamp="1579071809155" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonCheatSheet$run.coverage" NAME="run Coverage Results" MODIFIED="1579247625448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/pythonCheatSheet$run.coverage" NAME="run Coverage Results" MODIFIED="1579578522217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
