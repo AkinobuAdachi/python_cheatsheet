@@ -4,6 +4,8 @@ from optparse import OptionParser
 from flask import Flask
 from flask import render_template
 from flask import request
+import sqlite3
+
 
 
 from scripts import *
@@ -30,6 +32,8 @@ from classes import class01
 from utils import file_utils
 from utils import datetime
 from utils import configparser
+
+from tests import doc_test_example
 
 
 # Flask routing
@@ -110,9 +114,13 @@ def main():
     # datetime.run_script()
     # configparser.run_script()
 
+    # test
+    c = doc_test_example.Cal()
+    print(c.add_num_and_double(1, 1))
+
     # Flask (terminal で python run.py しないとダメ。なんでだろ。)
-    app.debug = True
-    app.run(host='0.0.0.0', port='5000')
+    # app.debug = True
+    # app.run(host='0.0.0.0', port='5000')
 
 
 if __name__ == '__main__':

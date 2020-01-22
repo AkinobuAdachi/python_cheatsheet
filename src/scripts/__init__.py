@@ -12,5 +12,6 @@ __all__ = [
     'namespace',
     'exception',
     'importTest',
-    'built_in_function'
+    'built_in_function',
+    'calcuration'
 ]
