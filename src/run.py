@@ -1,4 +1,10 @@
 import sys
+from optparse import OptionParser
+
+from flask import Flask
+from flask import render_template
+from flask import request
+
 
 from scripts import *
 # from scripts import basics
@@ -26,6 +32,41 @@ from utils import datetime
 from utils import configparser
 
 
+# Flask routing
+app = Flask(__name__)
+
+
+@app.route('/')
+def top_page():
+    return 'this is top page.'
+
+
+@app.route('/next')
+def next_page():
+    return 'this is next page.'
+
+
+@app.route('/<query_param>')
+def user(query_param):
+    return 'query_param : {}'.format(query_param)
+
+
+# @app.route('/index')
+# def index():
+#     return render_template('index_template.html', title='index',
+#                            contents='this is template')
+
+@app.route('/index')
+@app.route('/index/<username>')
+def greeting(username=None):
+    return render_template('index_template.html', title='index',
+                           contents='this is template', username=username)
+
+
+@app.route('/method/post', methods=['POST', 'PUT', 'DELETE'])
+def show_post():
+    return str(request.values)
+
 def main():
     '''
     # python組み込み関数
@@ -34,7 +75,10 @@ def main():
     https://docs.python.org/ja/3.7/library/index.html
     # PyPi
     https://pypi.org/
+    # Flask
+    https://a2c.bitbucket.io/flask/
     '''
+
     print(sys.argv)
     # print(sys.path)
     # basics.run_script()
@@ -64,7 +108,12 @@ def main():
     # utils
     # file_utils.run_script()
     # datetime.run_script()
-    configparser.run_script()
+    # configparser.run_script()
+
+    # Flask (terminal で python run.py しないとダメ。なんでだろ。)
+    app.debug = True
+    app.run(host='0.0.0.0', port='5000')
+
 
 if __name__ == '__main__':
     main()

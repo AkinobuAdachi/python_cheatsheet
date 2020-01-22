@@ -104,9 +104,9 @@ def f_read_and_write():
 
 # templateにあるindex.htmlを読んで、内容を加える
 def read_template():
-    with open('template/index.html', 'r') as f:
+    with open('templates/index.html', 'r') as f:
         t = string.Template(f.read())
-    contents = t.substitute(title='Top', contents='this is template.')
+    contents = t.substitute(title='Top', contents='this is templates.')
     print(contents)
 
 
