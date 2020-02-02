@@ -80,5 +80,6 @@ def assignment():
     family = 'Adachi'
     print(f'My name is {name} {family}. 私の名前は{family} {name}です。')
 
+
 if __name__ == '__main__':
     run_script()

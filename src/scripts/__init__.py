@@ -13,5 +13,6 @@ __all__ = [
     'exception',
     'importTest',
     'built_in_function',
-    'calcuration'
+    'calcuration',
+    'regularExpression',
 ]

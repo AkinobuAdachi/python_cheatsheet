@@ -4,7 +4,7 @@ import unittest
 import sys
 sys.path.append('/projects/src/')
 
-from scripts import *
+from scripts import calcuration
 
 env = 'prod'
 

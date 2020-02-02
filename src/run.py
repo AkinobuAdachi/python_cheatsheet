@@ -101,6 +101,7 @@ def main():
     # exception.run_script()
     # importTest.run_script()
     # built_in_function.run_script()
+    regularExpression.run_script()
 
     # classes
     # person_01 = class01.Person()
@@ -115,8 +116,8 @@ def main():
     # configparser.run_script()
 
     # test
-    c = doc_test_example.Cal()
-    print(c.add_num_and_double(1, 1))
+    # c = doc_test_example.Cal()
+    # print(c.add_num_and_double(1, 1))
 
     # Flask (terminal で python run.py しないとダメ。なんでだろ。)
     # app.debug = True
