@@ -21,28 +21,14 @@ RE_STACK_ID = re.compile(r"""
                 """, re.VERBOSE)
 
 def run_script():
-    # match()
+    match()
     # search()
     # find_all()
     # find_iter()
-    check_aws_id()
-
-def check_aws_id():
-    # m = re.match(r'arn:aws:cloudformation:(?P<region>[\w-]+):'
-    #              r'(?P<account_id>[\d]+):stack/(?P<stack_name>[\w-]+/[\w-]+)',
-    #              AWS_ID_2)
-
-    for id in [AWS_ID_1, AWS_ID_2]:
-        m = RE_STACK_ID.match(id)
-        if m:
-            print('go next')
-            print(m)
-            print(m.group())
-            print('region : {}'.format(m.group('region')))
-            print('account_id : {}'.format(m.group('account_id')))
-            print('stack_name : {}'.format(m.group('stack_name')))
-        else:
-            raise Exception('Error!')
+    # check_aws_id()
+    # re_sprit()
+    # re_sub()
+    # to_hex()
 
 
 def match():
@@ -98,6 +84,11 @@ def match():
     print(m)
     print(m.group())
 
+    s = '<html><head><title>Title</title></head></html>'
+
+    print(re.match('<.*>', s)) # Greedy
+    print(re.match('<.*?>', s))
+
 def search():
     # m =re.search('a.c', 'test aac test abc')
     # m = re.search('^abc', 'abc test aac test ab') # 先頭をチェックする場合
@@ -118,6 +109,49 @@ def find_iter():
     #     print(w.group())
     print([w.group() for w in m])
 
+
+def check_aws_id():
+    # m = re.match(r'arn:aws:cloudformation:(?P<region>[\w-]+):'
+    #              r'(?P<account_id>[\d]+):stack/(?P<stack_name>[\w-]+/[\w-]+)',
+    #              AWS_ID_2)
+
+    for id in [AWS_ID_1, AWS_ID_2]:
+        m = RE_STACK_ID.match(id)
+        if m:
+            print('go next')
+            print(m)
+            print(m.group())
+            print('region : {}'.format(m.group('region')))
+            print('account_id : {}'.format(m.group('account_id')))
+            print('stack_name : {}'.format(m.group('stack_name')))
+        else:
+            raise Exception('Error!')
+
+def re_sprit():
+    s = 'My name is ... Mike'
+    print(s.split(sep=' '))
+
+    p = re.compile(r'\W+')
+    print(p.split(s))
+
+def re_sub():
+    p = re.compile('(blue|white|red)')
+    print(p.sub('color', 'blue socks and red shoes')) # blue, white,
+    # red を colorに置換
+    print(p.sub('color', 'blue socks and red shoes', count=1)) # 1つ目だけ置換
+    print(p.subn('color', 'blue socks and red shoes')) # 置換した数をタプルに追加
+
+##########
+
+def hexrepl(match):
+    value = int(match.group())
+    return hex(value)
+
+def to_hex():
+    p = re.compile(r'\d')
+    print(p.sub(hexrepl, '2345 23452 34 test test2'))
+
+##########
 
 
 if __name__ == '__main__':
