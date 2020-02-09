@@ -102,7 +102,8 @@ def main():
     # importTest.run_script()
     # built_in_function.run_script()
     # regularExpression.run_script()
-    pprint_jsonDumps.run_script()
+    # pprint_jsonDumps.run_script()
+    sqlite3.run_script()
 
     # classes
     # person_01 = class01.Person()

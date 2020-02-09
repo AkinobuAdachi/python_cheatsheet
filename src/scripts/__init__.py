@@ -16,4 +16,5 @@ __all__ = [
     'calcuration',
     'regularExpression',
     'pprint_jsonDumps',
+    'sqlite3',
 ]
