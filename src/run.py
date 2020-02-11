@@ -103,7 +103,12 @@ def main():
     # built_in_function.run_script()
     # regularExpression.run_script()
     # pprint_jsonDumps.run_script()
-    sqlite3.run_script()
+    # sqlite3.run_script()
+    # mysql.run_script() #err
+    # sqlAlchemy.run_script()
+    # json.run_script()
+    # request.run_script()
+    requests.run_script()
 
     # classes
     # person_01 = class01.Person()

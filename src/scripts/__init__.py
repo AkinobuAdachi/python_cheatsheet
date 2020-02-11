@@ -17,4 +17,9 @@ __all__ = [
     'regularExpression',
     'pprint_jsonDumps',
     'sqlite3',
+    'mysql',
+    'sqlAlchemy',
+    'json',
+    'request',
+    'requests',
 ]
